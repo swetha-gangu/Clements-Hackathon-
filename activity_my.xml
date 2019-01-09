@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+ android:background="@drawable/gahooey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="307dp"
+        android:layout_height="374dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/safetywoo"
+        android:layout_marginTop="0px"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0px" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMERGENCY"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:onClick="screen2"
+        android:background="@drawable/butt"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAPS"
+        android:id="@+id/buttonito"
+        android:layout_gravity="center_horizontal"
+        android:onClick="screen3"
+        android:background="@drawable/butt"
+        android:textColor="#ffffff"
+        android:layout_marginTop="25px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="RUCHIKA DONGRE"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/accent_material_dark"
+        android:layout_marginTop="50px"
+        android:typeface="monospace" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="SWETHA GANGU"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/accent_material_dark"
+        android:typeface="monospace" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="MADELEINE LAI"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/accent_material_dark"
+        android:typeface="monospace" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ETHAN SOLLENBERGER"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/accent_material_dark"
+        android:typeface="monospace" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="WITH SPECIAL THANKS TO MR. HART"
+        android:id="@+id/textView5"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20px"
+        android:textColor="@color/accent_material_dark" />
+
+</LinearLayout>
